@@ -52,7 +52,7 @@ footer {
   bottom: 0;
   width: 100%;
   font-weight: normal;
-  z-index: 1; /* Ensure footer is above other elements */
+  z-index: 1000; /* Ensure footer is above other elements */
 }
 
 a {
