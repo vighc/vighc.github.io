@@ -64,15 +64,6 @@ a:hover {
   text-decoration: underline;
 }
 
-b {
-  color: #333;
-  text-decoration: none;
-}
-
-b:hover {
-  text-decoration: underline;
-}
-
 .download-btn {
   background-color: var(--secondary-color);
   color: white;
