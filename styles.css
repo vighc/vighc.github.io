@@ -109,3 +109,24 @@ body {
 .left-btn:hover, .right-btn:hover {
   background-color: #003580;
 }
+
+
+
+
+
+.project-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.project-item {
+  width: 32%;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.project-item img {
+  width: 100%;
+  height: auto;
+}
