@@ -18,10 +18,10 @@ body {
 
 header {
   background-color: var(--primary-color);
-  padding: 6px; /* Reduced padding by 40% */
+  padding: 5px; 
   text-align: center;
   color: white;
-  font-size: 18px; /* Reduced font size by 40% */
+  font-size: 20px;
 }
 
 section {
@@ -45,7 +45,7 @@ p, ul {
 
 footer {
   text-align: center;
-  padding: 4px;
+  padding: 2px;
   background-color: var(--primary-color);
   color: white;
   position: fixed;
@@ -56,11 +56,36 @@ footer {
 a {
   color: white;
   text-decoration: none;
-  font-weight: bold;
+  /*font-weight: bold;*/
 }
 
 a:hover {
   text-decoration: underline;
+}
+
+b {
+  color: #333;
+  text-decoration: none;
+  /*font-weight: bold;*/
+}
+
+b:hover {
+  text-decoration: underline;
+}
+
+.download-btn {
+  background-color: var(--secondary-color);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.download-btn:hover {
+  background-color: var(--hover-color);
 }
 
 /* Carousel Styling */
@@ -71,6 +96,7 @@ a:hover {
   position: relative;
   max-width: 800px;
   margin: 0 auto;
+  padding-bottom: 50px; /* Add padding to avoid overlap with footer */
 }
 
 .carousel-container {
