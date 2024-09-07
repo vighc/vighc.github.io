@@ -21,14 +21,14 @@ header {
   padding: 6px; /* Reduced padding by 40% */
   text-align: center;
   color: white;
-  font-size: 20px; /* Reduced font size by 40% */
+  font-size: 18px; /* Reduced font size by 40% */
 }
 
 section {
-  margin: 30px auto; /* Reduced margin */
+  margin: 24px auto; /* Reduced margin */
   max-width: 800px;
   background-color: white;
-  padding: 20px; /* Reduced padding */
+  padding: 16px; /* Reduced padding */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
 }
@@ -45,7 +45,7 @@ p, ul {
 
 footer {
   text-align: center;
-  padding: 10px;
+  padding: 4px;
   background-color: var(--primary-color);
   color: white;
   position: fixed;
