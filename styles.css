@@ -120,6 +120,7 @@ b:hover {
   height: auto;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 2px solid var(--primary-color); /* Add border to images */
 }
 
 .left-btn, .right-btn {
@@ -146,6 +147,11 @@ b:hover {
 .left-btn:hover, .right-btn:hover {
   background-color: var(--hover-color);
 }
+
+#contact {
+  margin-bottom: 60px; /* Add margin to the bottom */
+}
+
 
 /* Responsive Design */
 @media (max-width: 768px) {
