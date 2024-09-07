@@ -18,14 +18,14 @@
       <p>Email: <a href="mailto:vighneshbhatchanila@gmail.com">vighneshbhatchanila@gmail.com</a> | 
          Phone: +91-9483020518 | 
          <a href="https://www.linkedin.com/in/vighc">LinkedIn</a> | 
-         <a href="https://github.com/username">GitHub</a>
+         <a href="https://github.com/vighc">GitHub</a>
       </p>
     </header>
 
     <section id="about">
       <h2>About Me</h2>
       <p>I am a data engineer with experience in building end-to-end data pipelines, real-time streaming, and cloud-based data transformation. 
-         I specialize in using tools like Python, SQL, AWS, GCP, Databricks, and Kafka to deliver efficient data solutions.</p>
+         I specialize in using tools like Python, SQL, GCP and AWS to deliver efficient data solutions.</p>
     </section>
 
     <section id="experience">
@@ -44,12 +44,6 @@
         <li>Led data migration from Oracle to GCP, reducing infrastructure costs and enhancing scalability.</li>
         <li>Executed data transformations in BigQuery using DBT for insight extraction and reporting.</li>
       </ul>
-
-      <h3>VARDHAN CONSULTING ENGINEERING (June - July'20) | Data Analyst Intern</h3>
-      <ul>
-        <li>Used Pandas for data cleaning and analysis, ensuring high-quality and accurate datasets.</li>
-        <li>Visualized business insights using Matplotlib, aiding decision-making processes.</li>
-      </ul>
     </section>
 
     <section id="skills">
@@ -57,19 +51,37 @@
       <ul>
         <li><strong>Languages:</strong> Python, SQL, Bash</li>
         <li><strong>Cloud:</strong> Google Cloud Platform (ACE, PDE & PDBE Certified), AWS</li>
-        <li><strong>Tools & Frameworks:</strong> Apache Spark, DBT, Airflow, Databricks, Kafka, Git, Terraform, SSIS</li>
+        <li><strong>Tools & Frameworks:</strong> Spark, DBT, Airflow, Databricks, Kafka, Git, Terraform, SSIS</li>
       </ul>
     </section>
 
     <section id="projects">
       <h2>Projects</h2>
-      
-      <h3>Streaming Data Pipeline</h3>
-      <p>Developed a streaming data pipeline using Kafka and Databricks for real-time data processing and transformation. 
-         <a href="https://www.linkedin.com/posts/vighc_streaming-data-pipeline-activity-7097222150956220416-sEyk">View Project</a></p>
+      <div class="carousel">
+        <button class="left-btn" onclick="prevProject()">&#10094;</button>
 
-      <h3>Robot Motion Control Using OpenPose</h3>
-      <p>Published a research paper on robot motion control using OpenPose, contributing to advancements in robotics.</p>
+        <div class="carousel-container">
+          <!-- Project 1 -->
+          <div class="project" id="project1">
+            <a href="https://github.com/vighc/kafka-stream" target="_blank">
+              <img src="images/Stock-Market.png" alt="Stock-Market Image">
+            </a>
+            <p>Streaming Data Pipeline: A project focused on real-time data processing using Kafka and Databricks.</p>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="project" id="project2">
+            <a href="https://github.com/vighc/gcp-dataflow-pipline" target="_blank">
+              <img src="images/Dataflow.png" alt="Dataflow Pipeline Image">
+            </a>
+            <p>Dataflow Data Pipeline: Capture, process, and visualize COVID-19 data in both real-time and batch modes, offering insights into the evolving pandemic landscape. </p>
+          </div>
+
+          <!-- Add more projects as needed -->
+        </div>
+
+        <button class="right-btn" onclick="nextProject()">&#10095;</button>
+      </div>
     </section>
 
     <section id="achievements">
@@ -95,3 +107,6 @@
     
   </body>
 </html>
+
+
+
