@@ -3,19 +3,28 @@ let currentProjectIndex = 0;
 const projects = document.querySelectorAll('.project');
 const totalProjects = projects.length;
 
+// Function to update the visibility of projects
 function showProject(index) {
-  const container = document.querySelector('.carousel-container');
-  container.style.transform = `translateX(-${index * 100}%)`;
+  projects.forEach((project, i) => {
+    project.classList.remove('active'); // Remove 'active' class from all projects
+    if (i === index) {
+      project.classList.add('active');  // Add 'active' class only to the current project
+    }
+  });
 }
 
 function nextProject() {
-  currentProjectIndex = (currentProjectIndex + 1) % totalProjects;
+  currentProjectIndex = (currentProjectIndex + 1) % totalProjects; // Increment project index
   showProject(currentProjectIndex);
 }
 
 function prevProject() {
-  currentProjectIndex = (currentProjectIndex - 1 + totalProjects) % totalProjects;
+  currentProjectIndex = (currentProjectIndex - 1 + totalProjects) % totalProjects; // Decrement project index
   showProject(currentProjectIndex);
 }
+
+// Show the first project initially
+showProject(currentProjectIndex);
+
 
 console.log("Portfolio website loaded.");

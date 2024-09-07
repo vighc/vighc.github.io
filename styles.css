@@ -65,12 +65,17 @@ body {
 
 .carousel-container {
   display: flex;
-  transition: transform 0.5s ease-in-out;
+  width: 100%;
+  justify-content: center;
 }
 
 .project {
-  min-width: 100%;
+  display: none; /* Hide all projects by default */
   text-align: center;
+}
+
+.project.active {
+  display: block; /* Show only the active project */
 }
 
 .project img {
