@@ -1,3 +1,4 @@
+// Placeholder for future scripts
 let currentProjectIndex = 0;
 const projects = document.querySelectorAll('.project');
 const totalProjects = projects.length;
@@ -22,16 +23,8 @@ function prevProject() {
   showProject(currentProjectIndex);
 }
 
-// Add keyboard navigation support
-document.addEventListener('keydown', (event) => {
-  if (event.key === 'ArrowRight') {
-    nextProject();
-  } else if (event.key === 'ArrowLeft') {
-    prevProject();
-  }
-});
-
 // Show the first project initially
 showProject(currentProjectIndex);
+
 
 console.log("Portfolio website loaded.");
