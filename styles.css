@@ -55,6 +55,11 @@ footer {
   z-index: 1000; /* Ensure footer is above other elements */
 }
 
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
 a {
   color: #333;
   text-decoration: none;
