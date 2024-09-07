@@ -109,6 +109,14 @@ a:hover {
   z-index: 10;
 }
 
+.left-btn {
+  left: 10px; /* Position at the left corner */
+}
+
+.right-btn {
+  right: 10px; /* Position at the right corner */
+}
+
 .left-btn:hover, .right-btn:hover {
   background-color: var(--hover-color);
 }
