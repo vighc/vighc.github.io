@@ -28,10 +28,11 @@
          I specialize in using tools like Python, SQL, GCP and AWS to deliver efficient data solutions.</p>
     </section>
 
+
     <section id="projects">
       <h2>Projects</h2>
       <div class="carousel">
-        <button class="left-btn" onclick="prevProject()">❮</button>
+        <button class="left-btn" onclick="prevProject()">&#10094;</button>
 
         <div class="carousel-container">
           <!-- Project 1 -->
@@ -60,7 +61,7 @@
 
         </div>
 
-        <button class="right-btn" onclick="nextProject()">❯</button>
+        <button class="right-btn" onclick="nextProject()">&#10095;</button>
       </div>
     </section>
 
@@ -106,7 +107,7 @@
     </section>
 
     <footer>
-      <p>© 2024 Vighneshwara C | <a href="#about">Back to top</a></p>
+      <p>&copy; 2024 Vighneshwara C | <a href="#about">Back to top</a></p>
     </footer>
 
     <!-- Link to the JavaScript file -->
@@ -114,3 +115,6 @@
     
   </body>
 </html>
+
+
+

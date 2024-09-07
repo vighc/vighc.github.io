@@ -18,17 +18,17 @@ body {
 
 header {
   background-color: var(--primary-color);
-  padding: 20px;
+  padding: 10px; /* Reduced padding */
   text-align: center;
   color: white;
-  font-size: 24px;
+  font-size: 20px; /* Reduced font size */
 }
 
 section {
-  margin: 50px auto;
+  margin: 30px auto; /* Reduced margin */
   max-width: 800px;
   background-color: white;
-  padding: 30px;
+  padding: 20px; /* Reduced padding */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
 }
