@@ -1,4 +1,4 @@
-// components/Experience.js
+import React from 'react';
 import SlipCard from '../components/SlipCard';
 
 const experiences = [
@@ -31,8 +31,6 @@ const ExperienceSection = () => (
       <SlipCard
         key={index}
         logo={exp.logo}
-        title={exp.title}
-        period={exp.period}
         details={exp.details}
       />
     ))}

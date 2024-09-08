@@ -234,7 +234,6 @@ footer p {
 
 
 
-
 .card {
   perspective: 1000px;
 }
@@ -257,11 +256,11 @@ footer p {
   transform: rotateY(180deg);
 }
 
-.card:hover .card-front {
+.card.flipped .card-front {
   transform: rotateY(180deg);
 }
 
-.card:hover .card-back {
+.card.flipped .card-back {
   transform: rotateY(0deg);
 }
 
@@ -282,6 +281,7 @@ footer p {
   flex-direction: column;
   align-items: flex-start;
 }
+
 
 
 /* Add this CSS to your stylesheet */

@@ -17,10 +17,11 @@ export default function Home() {
       <Projects />
       <Experience />
       <Skills />
-      <Achievements />
-      <Leadership />
+      {/* <Achievements /> */}
+      {/* <Leadership /> */}
       <Contact />
       <Footer />
     </div>
   );
 }
+
