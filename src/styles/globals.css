@@ -3,10 +3,23 @@
 /* Variables for consistent styling */
 :root {
   --primary-color: #4fa9cc;
-  --secondary-color: #0047AB;
+  --secondary-color: #6eb4cf;
   --hover-color: #003580;
   --text-color: #333;
+  --p-color: #f5f5f5;
   --background-color: #f5f5f5;
+  --shaow-color: #7c7c7c;
+  --font-family: 'Poppins', sans-serif;
+}
+
+[data-theme='dark'] {
+  --primary-color: #252525;
+  --secondary-color: #888888;
+  --hover-color: #ffffff;
+  --text-color: #dad9d9;
+  --p-color: #dad9d9;
+  --shaow-color: #a7a7a7;
+  --background-color: #000000;
   --font-family: 'Poppins', sans-serif;
 }
 
@@ -22,16 +35,27 @@ header {
   background-color: var(--primary-color);
   padding: 5px; 
   text-align: center;
-  color: white;
+  color: var(--background-color);
   font-size: 20px;
+  position: relative;
 }
 
+.theme-toggle {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 50px;
+  cursor: pointer;
+  color: var(--p-color)
+}
 section {
   margin: 24px auto; /* Reduced margin */
   max-width: 800px;
-  background-color: white;
+  background-color: var(--background-color);
   padding: 16px; /* Reduced padding */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px var(--shaow-color);
   border-radius: 10px;
 }
 
@@ -43,13 +67,21 @@ p, ul {
   font-size: 18px;
   line-height: 1.6;
   margin: 20px 0;
+  color: var(--text-color);
+}
+
+header p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin: 20px 0;
+  color: var(--p-color);
 }
 
 footer {
   text-align: center;
   padding: 2px;
   background-color: var(--primary-color);
-  color: white;
+  color: var(--background-color);
   position: fixed;
   bottom: 0;
   width: 100%;
@@ -58,12 +90,12 @@ footer {
 }
 
 footer a {
-  color: white;
+  color: var(--p-color);
   text-decoration: none;
 }
 
 a {
-  color: #333;
+  color: var(--text-color);
   text-decoration: none;
 }
 
@@ -71,9 +103,16 @@ a:hover {
   text-decoration: underline;
 }
 
+footer p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin: 20px 0;
+  color: var(--p-color);
+}
+
 .download-btn {
   background-color: var(--secondary-color);
-  color: white;
+  color: var(--background-color);
   border: none;
   padding: 10px 20px;
   font-size: 16px;
@@ -147,7 +186,7 @@ a:hover {
 
 .left-btn, .right-btn {
   background-color: var(--secondary-color);
-  color: white;
+  color: var(--background-color);
   border: none;
   font-size: 24px;
   padding: 10px;
@@ -209,6 +248,16 @@ a:hover {
   .phone-icon {
     width: 125%; /* Adjusted width */
     height: auto;
+  }
+  .theme-toggle {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+    color: var(--p-color)
   }
 
 }
