@@ -1,8 +1,8 @@
 // next.config.mjs
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    basePath: '/vighc.github.io',
-    assetPrefix: '/vighc.github.io/',
+    basePath: '/my-portfolio',
+    assetPrefix: '/my-portfolio/',
   };
   
   export default nextConfig;
