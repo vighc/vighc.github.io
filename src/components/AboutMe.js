@@ -8,8 +8,8 @@ const AboutMe = () => (
     </div>
     <p>Hello, Welcome !! <br/>
     <br/>
-    I am a Data Engineer with experience in building end-to-end data pipelines, real-time streaming, and cloud-based data transformation.
-    I specialize in using tools like Python, SQL, GCP and AWS to deliver efficient data solutions.</p>
+    I am a Data Engineer with experience in designing and implementing end-to-end data pipelines for both real-time streaming and batch processing systems, leveraging scalable cloud-based data platforms. 
+    I specialize in using Python, SQL, GCP, and AWS to deliver efficient and impactful data solutions that drive informed business decisions.</p>
   </section>
 );
 
