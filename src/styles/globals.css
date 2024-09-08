@@ -86,6 +86,29 @@ a:hover {
   background-color: var(--hover-color);
 }
 
+/* components/AboutMe.css */
+.about-me {
+  display: flex;
+  align-items: center;
+}
+
+.phone-circle {
+  width: 1000px;
+  height: 300px;
+  border-radius: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 25px;
+}
+
+.phone-icon {
+  width: 150%;
+  height: auto;
+}
+
+
 /* Carousel Styling */
 .carousel {
   display: flex;
@@ -146,8 +169,8 @@ a:hover {
   background-color: var(--hover-color);
 }
 
-#contact {
-  margin-bottom: 60px; /* Add margin to the bottom */
+.Contact {
+  padding-bottom: 60px; /* Adjust this value as needed */
 }
 
 /* Responsive Design */
