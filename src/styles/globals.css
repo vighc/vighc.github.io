@@ -94,7 +94,7 @@ a:hover {
 
 .phone-circle {
   width: 1000px; /* Adjusted width */
-  height: 250px;
+  height: 225px;
   border-radius: 50%; /* Adjusted for a perfect circle */
   overflow: hidden;
   display: flex;
@@ -105,11 +105,10 @@ a:hover {
 }
 
 .phone-icon {
-  width: 150%; /* Adjusted width */
+  width: 145%; /* Adjusted width */
   height: auto;
+  transform: translateY(10px);
 }
-
-
 
 /* Carousel Styling */
 .carousel {
