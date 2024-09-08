@@ -151,6 +151,7 @@ footer p {
   width: 145%; /* Adjusted width */
   height: auto;
   transform: translateY(10px);
+  filter: grayscale(var(--invertVal));
 }
 
 /* Carousel Styling */
