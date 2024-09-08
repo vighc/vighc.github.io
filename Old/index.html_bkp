@@ -15,30 +15,24 @@
     <header>
       <h1>Vighneshwara C</h1>
       <p>Data Engineer | Python | SQL | GCP | AWS </p>
-      <p>Email: <a href="mailto:vighneshbhatchanila@gmail.com">vighneshbhatchanila@gmail.com</a> | 
-         Phone: +91-9483020518 | 
-         <a href="https://www.linkedin.com/in/vighc">LinkedIn</a> | 
-         <a href="https://github.com/vighc">GitHub</a>
-      </p>
     </header>
 
     <section id="about">
-      <h2>About Me</h2>
-      <p>I am a data engineer with experience in building end-to-end data pipelines, real-time streaming, and cloud-based data transformation. 
+      <!--<h2>About Me</h2>-->
+      <p>I am a Data Engineer with experience in building end-to-end data pipelines, real-time streaming, and cloud-based data transformation. 
          I specialize in using tools like Python, SQL, GCP and AWS to deliver efficient data solutions.</p>
     </section>
-
 
     <section id="projects">
       <h2>Projects</h2>
       <div class="carousel">
-        <button class="left-btn" onclick="prevProject()">&#10094;</button>
+        <button class="left-btn" onclick="prevProject()">❮</button>
 
         <div class="carousel-container">
           <!-- Project 1 -->
           <div class="project" id="project1">
             <a href="https://github.com/vighc/kafka-stream" target="_blank">
-              <img src="images/Stock-Market.png" alt="Stock-Market Image">
+              <img src="Files/Stock-Market.png" alt="Stock-Market Image">
             </a>
             <p>Streaming Data Pipeline: A project focused on real-time data processing using Kafka and Databricks.</p>
           </div>
@@ -46,7 +40,7 @@
           <!-- Project 2 -->
           <div class="project" id="project2">
             <a href="https://github.com/vighc/gcp-dataflow-pipline" target="_blank">
-              <img src="images/Dataflow.png" alt="Dataflow Pipeline Image">
+              <img src="Files/Dataflow.png" alt="Dataflow Pipeline Image">
             </a>
             <p>Dataflow Data Pipeline: Capture, process, and visualize COVID-19 data in both real-time and batch modes, offering insights into the evolving pandemic landscape. </p>
           </div>
@@ -54,14 +48,14 @@
           <!-- Project 3 -->
           <div class="project" id="project3">
             <a href="https://github.com/vighc/aws-glueToAthena" target="_blank">
-              <img src="images/GlueAthena.png" alt="GlueAthena Image">
+              <img src="Files/GlueAthena.png" alt="GlueAthena Image">
             </a>
             <p>Streaming Data Pipeline with AWS Glue: The pipeline efficiently captures, processes, and visualizes streaming data for robust business analytics.</p>
           </div>
 
         </div>
 
-        <button class="right-btn" onclick="nextProject()">&#10095;</button>
+        <button class="right-btn" onclick="nextProject()">❯</button>
       </div>
     </section>
 
@@ -103,11 +97,15 @@
     <section id="contact">
       <h2>Contact Me</h2>
       <p>If you would like to collaborate on data projects or learn more about my work, feel free to reach out via email or LinkedIn.</p>
-      <p>Email: <a href="mailto:vighneshbhatchanila@gmail.com">vighneshbhatchanila@gmail.com</a></p>
+      <p>Email: <a href="mailto:vighneshbhatchanila@gmail.com" target="_blank">vighneshbhatchanila@gmail.com</a> | 
+         Phone: <a href="tel:+91-9483020518" target="_blank">+91-9483020518 </a> | 
+          <a href="https://www.linkedin.com/in/vighc" target="_blank">LinkedIn</a> | 
+          <a href="https://github.com/vighc" target="_blank">GitHub</a>
+      </p>
     </section>
 
     <footer>
-      <p>&copy; 2024 Vighneshwara C | <a href="#about">Back to top</a></p>
+      <p>&copy; 2024 Vighneshwara C | <a href="Files/Data_Engineer_Experience.pdf" download>Resume ⇩ </a> | <a href="#about">Back to top</a></p>
     </footer>
 
     <!-- Link to the JavaScript file -->
@@ -115,6 +113,3 @@
     
   </body>
 </html>
-
-
-
