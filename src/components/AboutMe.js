@@ -4,7 +4,7 @@ import React from 'react';
 const AboutMe = () => (
   <section id="AboutMe" className="about-me">
     <div className="phone-circle">
-      <img src="/Files/Vighnesh.jpg" alt="Phone" className="phone-icon" />
+      <img src="/Files/file.png" alt="Phone" className="phone-icon" aria-label="Phone Icon" />
     </div>
     <p>Hello, Welcome !! <br/>
     <br/>
@@ -14,4 +14,3 @@ const AboutMe = () => (
 );
 
 export default AboutMe;
-

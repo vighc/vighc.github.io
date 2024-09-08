@@ -93,20 +93,22 @@ a:hover {
 }
 
 .phone-circle {
-  width: 1000px;
-  height: 300px;
-  border-radius: 100%;
+  width: 1000px; /* Adjusted width */
+  height: 250px;
+  border-radius: 50%; /* Adjusted for a perfect circle */
   overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-right: 25px;
+  background-color: var(--primary-color);
 }
 
 .phone-icon {
-  width: 150%;
+  width: 150%; /* Adjusted width */
   height: auto;
 }
+
 
 
 /* Carousel Styling */
@@ -185,3 +187,31 @@ a:hover {
     padding: 8px;
   }
 }
+
+/* Media query for smaller screens */
+@media (max-width: 767px) {
+  .about-me {
+    flex-direction: column; /* Column layout for mobile */
+  }
+
+
+  .phone-circle {
+    width: 225px; /* Adjusted width */
+    height: 225px;
+    border-radius: 50%; /* Adjusted for a perfect circle */
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 25px;
+    background-color: var(--primary-color);
+  }
+  
+  .phone-icon {
+    width: 125%; /* Adjusted width */
+    height: auto;
+  }
+
+}
+
+
