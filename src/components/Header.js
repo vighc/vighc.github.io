@@ -10,7 +10,7 @@ const Header = () => {
       <h1>Vighneshwara C</h1>
       <p>Data Engineer | Python | SQL | GCP | AWS</p>
       <button className="theme-toggle" onClick={toggleTheme}>
-        {theme === 'light' ? '☾' : '☀︎'}
+        {theme === 'dark' ? '☀︎' : '☾'}
       </button>
     </header>
   );
