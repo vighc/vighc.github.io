@@ -6,11 +6,11 @@
   --secondary-color: #888888;
   --hover-color: #ffffff;
   --text-color: #dad9d9;
-  --p-color: #dad9d9;
+  --headerFooter-text-color: #dad9d9;
   --shadow-color: #a7a7a7;
   --background-color: #000000;
   --font-family: 'Poppins', sans-serif;
-  --invertVal: 50%;
+  --ColorPer: 50%;
   --black-color: #000000;
 }
 
@@ -19,11 +19,11 @@
   --secondary-color: #6eb4cf;
   --hover-color: #003580;
   --text-color: #333;
-  --p-color: #f5f5f5;
+  --headerFooter-text-color: #f5f5f5;
   --background-color: #f5f5f5;
   --shadow-color: #7c7c7c;
   --font-family: 'Poppins', sans-serif;
-  --invertVal: 0% ;
+  --ColorPer: 0% ;
   --black-color: #000000;
 }
 
@@ -52,7 +52,7 @@ header {
   border: none;
   font-size: 50px;
   cursor: pointer;
-  color: var(--p-color)
+  color: var(--headerFooter-text-color)
 }
 section {
   margin: 24px auto; /* Reduced margin */
@@ -78,7 +78,7 @@ header p {
   font-size: 18px;
   line-height: 1.6;
   margin: 20px 0;
-  color: var(--p-color);
+  color: var(--headerFooter-text-color);
 }
 
 footer {
@@ -94,7 +94,7 @@ footer {
 }
 
 footer a {
-  color: var(--p-color);
+  color: var(--headerFooter-text-color);
   text-decoration: none;
 }
 
@@ -111,7 +111,7 @@ footer p {
   font-size: 18px;
   line-height: 1.6;
   margin: 20px 0;
-  color: var(--p-color);
+  color: var(--headerFooter-text-color);
 }
 
 .download-btn {
@@ -151,7 +151,7 @@ footer p {
   width: 145%; /* Adjusted width */
   height: auto;
   transform: translateY(10px);
-  filter: grayscale(var(--invertVal));
+  filter: grayscale(var(--ColorPer));
 }
 
 /* Carousel Styling */
@@ -187,7 +187,7 @@ footer p {
   border-radius: 10px;
   box-shadow: 0 4px 8px var(--shadow-color);
   border: 2px solid var(--black-color); /* Add border to images */
-  filter: grayscale(var(--invertVal));
+  filter: grayscale(var(--ColorPer));
 }
 
 .left-btn, .right-btn {
@@ -273,7 +273,7 @@ footer p {
   width: 350px;
   height: auto;
   margin-right: 20px;
-  filter: grayscale(var(--invertVal));
+  filter: grayscale(var(--ColorPer));
 }
 
 .text-content {
@@ -326,7 +326,7 @@ footer p {
   height: auto;
   margin-bottom: 5px;
   align-items: center;
-  filter: grayscale(var(--invertVal));
+  filter: grayscale(var(--ColorPer));
 }
 
 .skill-item:hover .skill-popup {
@@ -368,7 +368,7 @@ footer p {
     border: none;
     font-size: 25px;
     cursor: pointer;
-    color: var(--p-color)
+    color: var(--headerFooter-text-color)
   }
 
 }
