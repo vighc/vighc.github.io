@@ -15,17 +15,20 @@
 }
 
 [data-theme='light'] {
-  --primary-color: #4fa9cc;
-  --secondary-color: #6eb4cf;
-  --hover-color: #003580;
-  --text-color: #333;
-  --headerFooter-text-color: #f5f5f5;
-  --background-color: #f5f5f5;
-  --shadow-color: #7c7c7c;
+  --primary-color: #3B5998;
+  --secondary-color: #8B9DC3;
+  --hover-color: #2A4887;
+  --text-color: #2D2D2D;
+  --headerFooter-text-color: #FFFFFF;
+  --background-color: #F7F7F7;
+  --shadow-color: #B0B0B0;
+  --accent-color: #FF6F61;
   --font-family: 'Poppins', sans-serif;
-  --ColorPer: 0% ;
+  --ColorPer: 0%;
   --black-color: #000000;
 }
+
+
 
 body {
   font-family: var(--font-family);
@@ -50,7 +53,7 @@ header {
   right: 10px;
   background: none;
   border: none;
-  font-size: 50px;
+  font-size: 40px;
   cursor: pointer;
   color: var(--headerFooter-text-color)
 }
@@ -219,21 +222,6 @@ footer p {
   padding-bottom: 60px; /* Adjust this value as needed */
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-  section {
-    margin: 20px;
-    padding: 20px;
-  }
-
-  .left-btn, .right-btn {
-    font-size: 18px;
-    padding: 8px;
-  }
-}
-
-
-
 .card {
   perspective: 1000px;
 }
@@ -336,6 +324,18 @@ footer p {
 
 
 
+/* Responsive Design */
+@media (max-width: 768px) {
+  section {
+    margin: 20px;
+    padding: 20px;
+  }
+
+  .left-btn, .right-btn {
+    font-size: 18px;
+    padding: 8px;
+  }
+}
 
 /* Media query for smaller screens */
 @media (max-width: 767px) {
