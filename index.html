@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vighneshwara C — Data Engineer</title>
+<meta name="description" content="Vighneshwara C — Data Engineer, GCP 3x Certified. 5+ years building large-scale data pipelines on GCP and AWS.">
+<meta name="author" content="Vighneshwara C">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Vighneshwara C — Data Engineer">
+<meta property="og:description" content="Data Engineer, GCP 3x Certified. Multi-petabyte pipelines, 99.9% availability, 500+ automated workflows.">
+<meta property="og:url" content="https://vighc.github.io">
+<meta property="og:image" content="https://vighc.github.io/assets/profile.jpg">
+<meta name="twitter:card" content="summary">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@2.47.0/tabler-icons.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<canvas id="matrix"></canvas>
+<div id="progress"></div>
+
+<div id="boot"><div id="boot-lines"></div></div>
+
+<div class="wrap">
+  <div class="term">
+    <div class="bar">
+      <span class="dot" style="background:#f85149"></span>
+      <span class="dot" style="background:#e3b341"></span>
+      <span class="dot" style="background:#3fb950"></span>
+      <span class="title">vighc@portfolio: ~/home</span>
+      <button id="matrix-toggle" class="bar-btn" title="toggle matrix rain" aria-label="toggle matrix rain"><i class="ti ti-binary"></i></button>
+      <span class="clock" id="clock"></span>
+    </div>
+    <div class="body">
+
+      <div class="hero reveal">
+        <img class="avatar" id="avatar" src="assets/profile.jpg" alt="Vighneshwara C">
+        <div style="min-width:230px;">
+          <div class="prompt">$ whoami</div>
+          <h1 id="name-glitch">Vighneshwara C</h1>
+          <div class="role">&gt; <span id="typed"></span><span class="cursor"></span></div>
+          <div class="links">
+            <a href="https://linkedin.com/in/vighc"><i class="ti ti-brand-linkedin"></i> linkedin</a>
+            <a href="https://vighc.github.io"><i class="ti ti-world"></i> vighc.github.io</a>
+            <a href="mailto:vighneshbhatchanila@gmail.com"><i class="ti ti-mail"></i> email</a>
+            <span><i class="ti ti-phone"></i> 9483020518</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="summary reveal">
+        <span class="hash"># </span>Building large-scale pipelines on GCP and AWS. Multi-petabyte processing at 99.9% availability, 500+ automated ingestion workflows, 30% faster runtimes. I like turning messy operational data into things people can actually decide with.
+      </div>
+
+      <div class="stats reveal">
+        <div class="stat tilt"><div class="num" data-target="5" data-suffix="+" style="color:var(--blue)">0</div><div class="lbl">years experience</div></div>
+        <div class="stat tilt"><div class="num" data-target="99.9" data-suffix="%" style="color:var(--green)">0</div><div class="lbl">pipeline availability</div></div>
+        <div class="stat tilt"><div class="num" data-target="500" data-suffix="+" style="color:var(--orange)">0</div><div class="lbl">workflows automated</div></div>
+        <div class="stat tilt"><div class="num" data-target="3" data-suffix="x" style="color:var(--purple)">0</div><div class="lbl">GCP certified</div></div>
+      </div>
+
+      <div class="cmd reveal">$ cat experience.log</div>
+      <div class="timeline">
+        <div class="job reveal">
+          <span class="node" style="background:var(--blue)"></span>
+          <div class="head"><span class="co">Advanced Engineer, Data — Albertsons Companies</span><span class="date">Oct 2025 – present</span></div>
+          <ul>
+            <li>Built an enterprise Merchandising Data Mesh at store–product–day grain — one source of truth for inventory, sales, and ops.</li>
+            <li>Integrated labor, warehouse, transport, and shrink costs to enable product-level profitability and pricing analysis.</li>
+            <li>Contributed to Aisle Maze, an AI in-store navigation tool, and AI-driven product discovery.</li>
+          </ul>
+        </div>
+        <div class="job reveal">
+          <span class="node" style="background:var(--green)"></span>
+          <div class="head"><span class="co">Data Engineer — Riskonnect Inc.</span><span class="date">Nov 2023 – Sep 2025</span></div>
+          <ul>
+            <li>Designed scalable GCP pipelines (BigQuery, Dataproc, Pub/Sub, GCS) — multi-petabyte, 99.9% availability.</li>
+            <li>Automated 500+ monthly ingestion workflows with Airflow, Python, Cloud Functions — 40% less manual work.</li>
+            <li>Built Spark ETL processing 10+ TB/day with quality checks, lineage, and governance.</li>
+            <li>Shipped CI/CD (GitLab + Airflow) cutting deploy errors 30%; powered Looker/Tableau for 100+ stakeholders.</li>
+          </ul>
+        </div>
+        <div class="job reveal">
+          <span class="node" style="background:var(--orange)"></span>
+          <div class="head"><span class="co">Data Engineer — Tata Consultancy Services</span><span class="date">Aug 2021 – Nov 2023</span></div>
+          <ul>
+            <li>Optimized PySpark/Dataproc/Pub/Sub pipelines for British Telecom — 30% faster runtimes.</li>
+            <li>Migrated Oracle to GCP, cutting infra cost 20% and improving query performance.</li>
+            <li>Built fault-tolerant pipelines with monitoring, cutting incident resolution time 35%.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="cmd reveal">$ ls skills/ <span style="color:var(--dim)"># click a skill</span></div>
+      <div class="tags reveal" id="skills"></div>
+
+      <div class="cmd reveal">$ git log --projects <span style="color:var(--dim)"># click a card to expand</span></div>
+      <div class="projects reveal" id="projects"></div>
+
+      <div class="cmd reveal">$ cat certs.txt achievements.txt</div>
+      <div class="info reveal">
+        <div><i class="ti ti-certificate"></i>GCP Professional Data Engineer · Professional Database Engineer · Associate Cloud Engineer</div>
+        <div><i class="ti ti-award"></i>ACI Recognition · RK Spotlight Award · Employee of the Month (TCS)</div>
+        <div><i class="ti ti-file-text"></i>Research: Robot Motion Control (OpenPose)</div>
+        <div><i class="ti ti-school"></i>BE Mechatronics — MITE, Mangalore (2017–2021)</div>
+      </div>
+
+      <div class="cmd reveal">$ ./console.sh <span style="color:var(--dim)"># try: help · tab = autocomplete · ↑ = history</span></div>
+      <div class="console reveal" id="console">
+        <div id="console-out"></div>
+        <div class="console-input">
+          <span style="color:var(--green)">vighc@portfolio:~$</span>
+          <input id="console-in" type="text" autocomplete="off" spellcheck="false" aria-label="terminal command input">
+        </div>
+      </div>
+
+      <div class="actions reveal">
+        <a class="btn" href="assets/resume.pdf" download><i class="ti ti-download"></i> Download résumé</a>
+        <a class="btn alt" href="mailto:vighneshbhatchanila@gmail.com"><i class="ti ti-mail"></i> Get in touch</a>
+      </div>
+
+    </div>
+  </div>
+  <footer>&copy; 2026 Vighneshwara C · built with plain HTML + CSS + JS · <span style="color:var(--green)">try the konami code ;)</span></footer>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
